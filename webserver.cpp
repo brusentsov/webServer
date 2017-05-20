@@ -7,6 +7,8 @@
 #include <QJsonDocument>
 #include <QFile>
 
+//
+
 WebServer::WebServer(QObject *parent) :
     QTcpServer(parent)
 {
