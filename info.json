@@ -1,0 +1,19 @@
+{
+	"serverInfo": {
+		"developer":"Yury Brusetsov",
+		"time":"23:00:29",
+		"title":"WebServer"
+	},
+	"favorites": [
+		{
+			"id": "1",
+			"name" : "Tyler",
+			"surname" : "Durden"
+		},
+		{
+			"id": "2",
+			"name" : "Forest",
+			"surname" : "Gump"
+		}
+	]
+}
