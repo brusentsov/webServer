@@ -16,5 +16,4 @@ before_install:
 script:
  - qmake -lab8
  - qmake lab8.pro
- - make
-
+ - make .
