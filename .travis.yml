@@ -9,3 +9,4 @@ before_install:
   - export QMAKE=/usr/lib/x86_64-linux-gnu/qt5/bin/qmake
 script:
   - qmake -qt=qt5
+  - make
