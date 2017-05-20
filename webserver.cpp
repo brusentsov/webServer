@@ -7,6 +7,8 @@
 #include <QJsonDocument>
 #include <QFile>
 
+//https://github.com/brusentsov/webServer.git
+
 WebServer::WebServer(QObject *parent) :
     QTcpServer(parent)
 {
@@ -32,7 +34,7 @@ void WebServer::incomingConnection(qintptr handle)
 void WebServer::onReadyRead()
 {
     QTcpSocket * socket = qobject_cast<QTcpSocket*>(sender());
-    QString request = socket->readLine(1000);
+    QString request = socket->readLine(2000);
     QString response = "HTTP/1.1 200 OK\r\n\r\n";
 
     qDebug() << "request : " << request;
