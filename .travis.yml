@@ -5,7 +5,6 @@ os:
 compiler: 
   - gcc
 before_install:
-  - sudo apt-get install libqt5-dev
   - sudo add-apt-repository --yes ppa:ubuntu-sdk-team/ppa
   - export QMAKE=/usr/lib/x86_64-linux-gnu/qt5/bin/qmake
 install:
