@@ -8,4 +8,4 @@ before_install:
   - sudo add-apt-repository --yes ppa:ubuntu-sdk-team/ppa
   - export QMAKE=/usr/lib/x86_64-linux-gnu/qt5/bin/qmake
 script:
-    - make
+  - qmake -qt=qt5
