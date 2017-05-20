@@ -15,6 +15,6 @@ before_install:
 
 script:
  - qmake -lab8
- - qmake Ultron.pro
+ - qmake lab8.pro
  - make
 
